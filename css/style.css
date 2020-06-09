@@ -1,0 +1,76 @@
+@font-face{
+    font-family: "Oswald";
+    src: url("/fonts/Oswald/static/Oswald-Regular.ttf");
+    font-weight: 500;
+
+}
+
+@font-face{
+    font-family: "Oswald-light";
+    src: url("/fonts/Oswald/static/Oswald-Light.ttf");
+    font-weight: 200;
+
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url("/fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: 500;
+
+}
+
+h1 {color: rgb(43, 98, 161);
+    text-align: center;
+    font-family: "Roboto";
+
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+}
+
+
+#bio-header{color:brown; font-family: 'Roboto', sans-serif;}
+#skills-header{color: coral;}
+
+
+.content {color: grey; font-size: 18px; 
+    font-family: "Oswald-light";
+    font-family: "arial";
+    text-align: left;
+    text-transform: none;
+line-height: 50px;
+font-weight: lighter;
+max-width: 90%;
+
+margin: 10px 20px 0;
+padding: 10px 0 0 0;
+border-top: solid 2px blue;
+
+
+}
+
+.bold{ font-weight: bold;}
+
+.img-div{ background-color: lightblue;}
+.img-light{background-color: lightskyblue;}
+
+img{
+    width: 300px;
+   margin: 1%; 
+
+   
+
+   box-shadow: 0 0 5px black;
+}
+#img1 {display: inline;
+        visibility: hidden;}
+
+#img2 { position: relative;
+top: 5px;}
+
+#trex {position: fixed;
+width: 7%;
+margin: 1%;
+bottom: 10px;
+right: 10px;}

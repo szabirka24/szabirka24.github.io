@@ -1,0 +1,21 @@
+#colorDiv{
+display: inline-block;
+width: 42px;
+height: 20px;
+background-color: rgb(255, 255, 255); 
+}
+
+/*
+Ezt a részt nem veszi figyelembe a VSC!!!
+
+background-image: url("../img/másik_kép.jpg") no-repeat;   - ha egy mappával feljebb kell mennem, ne ismétlődjön
+
+*/
+
+
+html{
+    background-color: #c0c0c0d5;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/335/316/original/dinosaurs_pattern.jpg");
+background-position: center;
+background-size: 110%;
+}

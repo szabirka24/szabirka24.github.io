@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/3eba7469c5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="/about.html">About</a>
+        </li>
+    </ul>
+
+    <table>
+        <caption>Opening hours</caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Open</th>
+                <th>Close</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            <tr>
+                <td>Monday-Friday</td>
+                <td>09:00</td>
+                <td rowspan="2">21:00</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10:00</td>
+                
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td colspan="2">closed</td>
+               
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3">
+            &copy; 2009
+        </td>
+        </tfoot>
+    </table>
+
+
+
+<div class="container">
+    <div class="row">
+<div class="col-2"></div>
+<div class="col-8">
+
+
+</div>
+<div class="col-2"></div>
+<table class="table table-striped table-dark table-hover">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Nap</th>
+        <th scope="col">Nyitás</th>
+        <th scope="col">Zárás</th>
+        <th>gombok</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"></th>
+        <td>Hétköznap</td>
+        <td>10-11</td>
+        <td>10-25</td>
+        <td>
+            <div class="btn-group">
+                <button class="btn-info btn">
+                    <i class="fas fa-sync-alt"></i>
+                </button>
+                <button class="btn btn-danger">törlés <i class="fas fa-trash-alt"></i></button>
+            </div>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row"></th>
+        <td>Szambat</td>
+        <td>10</td>
+        <td>33</td>
+        <td>
+            <div class="btn-group">
+                <button class="btn-info btn">
+                    <i class="fas fa-sync-alt"></i>
+                </button>
+                <button class="btn btn-danger">törlés <i class="fas fa-trash-alt"></i></button>
+            </div>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row"></th>
+        <td>Vasárnap</td>
+        <td>10</td>
+        <td>11</td><td>
+            <div class="btn-group">
+                <button class="btn-info btn">
+                    <i class="fas fa-sync-alt"></i>
+                </button>
+                <button class="btn btn-danger">törlés <i class="fas fa-trash-alt"></i></button>
+            </div>
+        </td>
+      </tr>
+    </tbody>
+  </table> 
+    </div>
+</div>
+</body>
+
+</html>

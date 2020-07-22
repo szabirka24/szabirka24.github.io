@@ -36,7 +36,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="login.html">Bejelentkezés</a>
                 </li>
-                
+
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="még nem lehet" aria-label="Search">
@@ -71,19 +71,19 @@
 
 
     <div class="container">
-<div class="row">
-<div class="col">
-    <button type="button" class="btn btn-primary">Kedvenc</button>
-<button type="button" class="btn btn-secondary">színű</button>
-<button type="button" class="btn btn-success">gombjaim</button>
-<button type="button" class="btn btn-danger">,</button>
-<button type="button" class="btn btn-warning">amiket</button>
-<button type="button" class="btn btn-info">meg</button>
-<button type="button" class="btn btn-light">lehet</button>
-<button type="button" class="btn btn-dark">nyomni</button>
-<button type="button" class="btn btn-link">.</button>
-</div>
-</div>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary">Kedvenc</button>
+                <button type="button" class="btn btn-secondary">színű</button>
+                <button type="button" class="btn btn-success">gombjaim</button>
+                <button type="button" class="btn btn-danger">,</button>
+                <button type="button" class="btn btn-warning">amiket</button>
+                <button type="button" class="btn btn-info">meg</button>
+                <button type="button" class="btn btn-light">lehet</button>
+                <button type="button" class="btn btn-dark">nyomni</button>
+                <button type="button" class="btn btn-link">.</button>
+            </div>
+        </div>
     </div>
 
 
@@ -102,15 +102,15 @@
     </p>
 
 
-<p>
-    <a href="order-form.html">Order forms</a>
-</p>
-<p>
-    <a href="selectros.html">Selectors</a>
-</p>
-<p>
-    <a href="bt.html">BootStrap</a>
-</p>
+    <p>
+        <a href="order-form.html">Order forms</a>
+    </p>
+    <p>
+        <a href="selectros.html">Selectors</a>
+    </p>
+    <p>
+        <a href="bt.html">BootStrap</a>
+    </p>
 
     <p>Images</p>
     <div class="img-div">
@@ -130,11 +130,68 @@
 
 
     <!DOCTYPE html>
-<html>
-<body style="background-image:url(img/dinosaur_baby.jpg); background-position: center;
+    <html>
+
+    <body style="background-image:url(img/dinosaur_baby.jpg); background-position: center;
 background-size: 110%;">
-</body>
-</html>
+
+
+
+
+
+
+        <!-- 
+
+    <script>
+alert("Szia!");
+</script>
+
+-->
+
+
+        <script src="js/main.js"></script>
+        <script src="js/scope.js"></script>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h3>Hamburger rendelés</h3>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="">Feltét</label>
+                            <input type="text" name="top-input" class="form-control">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="">Mennyiség</label>
+                            <input type="number" name="amount-input" class="form-control" value="1">
+                            <small class="form-text text-muted">
+                                Minimum 1 db, maximum 10 db
+                            </small>
+                        </div>
+                        <div class="form-group">
+                            Fizetendő: <span class="show-amount">
+                                    0
+                            </span> Ft
+
+                        </div>
+                        <button onclick="calcAmount()" type="button" class="btn btn-primary">Megrendelés</button>
+                    </form>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </body>
+
+    </html>
 
 
 </body>
